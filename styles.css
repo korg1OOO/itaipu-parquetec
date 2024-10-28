@@ -16,7 +16,6 @@
 .conteudo {
     width: 1320px;
     margin: 0 auto;
-    border: dotted 2px #fbff00;
 }
 
 /* CABEÇALHO */
@@ -332,22 +331,20 @@
 }
 
 .logoRodape {
-    max-width: 165px;
+    margin-top: 70px;
+    min-width: 40px;
+    max-width: 210px;
 }
 
 .esquerda {
     float: left;
-}
-
-.direita {
-    
+    width: 34%;
 }
 
 .conteudo-rodape {
     width: 1320px;
     margin: 0 auto;
-    border: dotted 2px #fbff00;
-    height: 380px;
+    height: 450px;
 }
 
 .redes {
@@ -424,4 +421,68 @@
     color: #003c6a;
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+.rodape .conteudoCentro {
+    width: 50%;
+    color: white;
+    display: flex;
+    margin-top: 190px;
+    margin-left: 100px;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    position: absolute;
+}
+
+.rodape .conteudoCentro ul{
+    list-style: none;
+}
+
+.rodape .conteudoCentro ul li {
+    list-style: none;
+    font-family: "Ubuntu", Sans-serif !important;
+    font-weight: 100;
+    font-size: 14.5px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.rodape .conteudoCentro ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.rodape .conteudoCentro ul li a:hover{
+    color: #0082c4;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+.conteudoDireita {
+    float: right;
+    margin-top: 210px;
+}
+
+.goTopBtn {
+    text-decoration: none;
+    color: #003c6a;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 1000px 1000px 1000px 1000px;
+    font-size: 13px;
+    border-style: solid;
+    font-weight: 400;
+    border-color: white;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.goTopBtn:hover {
+    transition: all .3s;
+    color: #0082c4;
+    background-color: #003C6A;
+    border-color: #0082c4;
 }
